@@ -92,3 +92,27 @@ footer {
 .section4 {
 	grid-area: section4;
 }
+
+/* skärmar större än 1200px */
+@media screen and (min-width: 1200px) {
+/* inga ändringar?*/
+}
+
+/*skärmar mellan 1200px och 960px */
+@media screen and (max-width: 1200px) and (min-width: 960px) {
+	#container {
+		grid-template-areas:
+		"box1 box1 box1 box2 box2 box2 box2 box2 box2 box3 box3 box3"
+		"content content content content content content content content sidebar sidebar sidebar sidebar""
+	}
+}
+
+/* - Tablets såsom Ipad: mellan 960px och 768px */
+@media screen and (max-width: 960px) and (min-width: 768px) {
+	
+}
+
+/* - Mobiltelefoner: mindre än 768px */
+@media screen and (max-width: 768px) {
+
+}
