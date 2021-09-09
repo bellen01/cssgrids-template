@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background: url(../img/12_col.gif) center top repeat-y;
 	background-size: 90%;
@@ -11,12 +15,12 @@ footer,
 .box2,
 .box3 {
 	border: 1px solid black;
-	/* height: 150px; */
+	height: 200px;
 }
 
 [class*="section"] {
 	border: 1px solid black;
-	height: 98%;
+	height: 100%;
 }
 
 #container {
@@ -24,7 +28,7 @@ footer,
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, 100%);
+    /* grid-template-rows: repeat(4, 100%); */
 	column-gap: 2%;
 	row-gap: 20px;
 	grid-template-areas:
@@ -63,7 +67,7 @@ footer {
 }
 
 #container2 {
-	height: 100%;
+	height: 200px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: auto;
