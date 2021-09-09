@@ -28,7 +28,7 @@ footer,
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-    /* grid-template-rows: repeat(4, 100%); */
+    grid-template-rows: auto;
 	column-gap: 2%;
 	row-gap: 20px;
 	grid-template-areas:
@@ -109,10 +109,22 @@ footer {
 
 /* - Tablets såsom Ipad: mellan 960px och 768px */
 @media screen and (max-width: 960px) and (min-width: 768px) {
-	
+	#container {
+		grid-template-areas:
+		"box1 box1 box1 box1 box2 box2 box2 box2 box3 box3 box3 box3"
+		"content content content content content content sidebar sidebar sidebar sidebar sidebar sidebar"
+		"footer footer footer footer footer footer footer footer footer footer footer footer";
+	}
+
+	#container2 {
+		grid-template-areas:
+		"section1 section2"
+		"section3 section4";
+	}
 }
 
 /* - Mobiltelefoner: mindre än 768px */
 @media screen and (max-width: 768px) {
-
+	
+	}	
 }
