@@ -94,7 +94,7 @@ footer {
 }
 
 /* skärmar större än 1200px */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
 /* inga ändringar?*/
 }
 
@@ -118,13 +118,28 @@ footer {
 
 	#container2 {
 		grid-template-areas:
-		"section1 section2"
-		"section3 section4";
+		"section1 section1 section1 section1 section1 section1 section2 section2 section2 section2 section2 section2"
+		"section3 section3 section3 section3 section3 section3 section4 section4 section4 section4 section4 section4";
 	}
 }
 
 /* - Mobiltelefoner: mindre än 768px */
 @media screen and (max-width: 768px) {
+	#container {
+		grid-template-areas:
+		"box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1"
+		"box2 box2 box2 box2 box2 box2 box2 box2 box2 box2 box2 box2"
+		"box3 box3 box3 box3 box3 box3 box3 box3 box3 box3 box3 box3"
+		"content content content content content content content content content content content content"
+		"sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar"
+		"footer footer footer footer footer footer footer footer footer footer footer footer";
+	}
 	
+	#container2 {
+		grid-template-areas:
+		"section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1"
+		"section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
+		"section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
+		"section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4";
 	}	
 }
