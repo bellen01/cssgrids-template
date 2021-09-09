@@ -16,9 +16,7 @@ footer,
 
 [class*="section"] {
 	border: 1px solid black;
-	height: 100%;
-	/* margin-top: 6px; 
-	margin-left: 6px; */
+	height: 98%;
 }
 
 #container {
@@ -70,6 +68,7 @@ footer {
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: auto;
 	column-gap: 2%;
+	padding: 1%;
 	grid-template-areas:
 	"section1 section2 section3 section4";
 }
