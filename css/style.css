@@ -99,7 +99,7 @@ footer {
 } */
 
 /*skärmar mellan 1200px och 960px */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 960px) {
 	#container {
 		grid-template-areas:
 		"header header header header header header header header header header header header"
