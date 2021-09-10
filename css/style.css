@@ -94,21 +94,23 @@ footer {
 }
 
 /* skärmar större än 1200px */
-@media screen and (min-width: 1201px) {
-/* inga ändringar?*/
-}
+/* @media screen and (min-width: 1201px) {
+
+} */
 
 /*skärmar mellan 1200px och 960px */
-@media screen and (max-width: 1200px) and (min-width: 960px) {
+@media screen and (max-width: 1200px) {
 	#container {
 		grid-template-areas:
+		"header header header header header header header header header header header header"
 		"box1 box1 box1 box2 box2 box2 box2 box2 box2 box3 box3 box3"
-		"content content content content content content content content sidebar sidebar sidebar sidebar""
+		"content content content content content content content content sidebar sidebar sidebar sidebar"
+		"footer footer footer footer footer footer footer footer footer footer footer footer";
 	}
 }
 
 /* - Tablets såsom Ipad: mellan 960px och 768px */
-@media screen and (max-width: 960px) and (min-width: 768px) {
+/* @media screen and (max-width: 960px) and (min-width: 768px) {
 	#container {
 		grid-template-areas:
 		"box1 box1 box1 box1 box2 box2 box2 box2 box3 box3 box3 box3"
@@ -121,10 +123,10 @@ footer {
 		"section1 section1 section1 section1 section1 section1 section2 section2 section2 section2 section2 section2"
 		"section3 section3 section3 section3 section3 section3 section4 section4 section4 section4 section4 section4";
 	}
-}
+} */
 
 /* - Mobiltelefoner: mindre än 768px */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 	#container {
 		grid-template-areas:
 		"box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1"
@@ -142,4 +144,4 @@ footer {
 		"section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
 		"section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4";
 	}	
-}
+} */
