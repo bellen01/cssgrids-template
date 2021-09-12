@@ -66,7 +66,7 @@ footer {
 	grid-area: footer;
 }
 
-#container2 {
+#grid-container-footer {
 	height: 200px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -77,19 +77,19 @@ footer {
 	"section1 section2 section3 section4";
 }
 
-.section1 {
+.section1-footer {
 	grid-area: section1;
 }
 
-.section2 {
+.section2-footer {
 	grid-area: section2;
 }
 
-.section3 {
+.section3-footer {
 	grid-area: section3;
 }
 
-.section4 {
+.section4-footer {
 	grid-area: section4;
 }
 
@@ -118,7 +118,7 @@ footer {
 		"footer footer footer footer footer footer footer footer footer footer footer footer";
 	}
 
-	#container2 {
+	#grid-container-footer {
 		height: 400px;
 		row-gap: 20px;
 		grid-template-areas:
@@ -143,7 +143,7 @@ footer {
 		"footer footer footer footer footer footer footer footer footer footer footer footer";
 	}
 	
-	#container2 {
+	#grid-container-footer {
 		height: 800px;
 		row-gap: 20px;
 		grid-template-areas:
