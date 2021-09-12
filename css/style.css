@@ -23,7 +23,7 @@ footer,
 	height: 100%;
 }
 
-#container {
+#grid-container {
 	width: 89%;
 	margin: 0 auto;
 	display: grid;
@@ -95,7 +95,7 @@ footer {
 
 /*skärmar mellan 1200px och 960px */
 @media screen and (max-width: 1200px) and (min-width: 960px) {
-	#container {
+	#grid-container {
 		grid-template-areas:
 		"header header header header header header header header header header header header"
 		"box1 box1 box1 box2 box2 box2 box2 box2 box2 box3 box3 box3"
@@ -110,7 +110,7 @@ footer {
 		height: 400px;
 	}
 
-	#container {
+	#grid-container {
 		grid-template-areas:
 		"header header header header header header header header header header header header"
 		"box1 box1 box1 box1 box2 box2 box2 box2 box3 box3 box3 box3"
@@ -132,7 +132,7 @@ footer {
 	footer {
 		height: 800px;
 	}
-	#container {
+	#grid-container {
 		grid-template-areas:
 		"header header header header header header header header header header header header"
 		"box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1"
