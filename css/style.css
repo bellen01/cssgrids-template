@@ -11,14 +11,14 @@ header,
 main,
 aside,
 footer,
-.box1,
-.box2,
-.box3 {
+#box1,
+#box2,
+#box3 {
 	border: 1px solid black;
 	height: 200px;
 }
 
-[class*="section"] {
+[id*="section"] {
 	border: 1px solid black;
 	height: 100%;
 }
@@ -42,15 +42,15 @@ header {
 	grid-area: header;
 }
 
-.box1 {
+#box1 {
 	grid-area: box1;
 }
 
-.box2 {
+#box2 {
 	grid-area: box2;
 }
 
-.box3 {
+#box3 {
 	grid-area: box3;
 }
 
@@ -77,19 +77,19 @@ footer {
 	"section1 section2 section3 section4";
 }
 
-.section1-footer {
+#section1-footer {
 	grid-area: section1;
 }
 
-.section2-footer {
+#section2-footer {
 	grid-area: section2;
 }
 
-.section3-footer {
+#section3-footer {
 	grid-area: section3;
 }
 
-.section4-footer {
+#section4-footer {
 	grid-area: section4;
 }
 
